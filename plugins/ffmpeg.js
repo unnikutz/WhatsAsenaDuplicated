@@ -14,7 +14,7 @@ const Language = require('../language');
 const Lang = Language.getString('ffmpeg');
 
 
-Asena.addCommand({pattern: 'ffmpeg ?(.*)', fromMe: true, desc: Lang.FF_DESC, warn: 'Dont use on photos! Only for Videos.'}, (async (message, match) => {    
+Asena.addCommand({pattern: 'ffmpeg ?(.*)', fromMe: false, desc: Lang.FF_DESC, warn: 'Dont use on photos! Only for Videos.'}, (async (message, match) => {    
     if (match[1] === '') return await message.sendMessage('Need Video and Filter Name!\nℹ️ Ex: ```.ffmpeg fade=in:0:30```\nℹ️ Ex: ```.ffmpeg fade=in:0:30, fps=fps=25```');
     var downloading = await message.client.sendMessage(message.jid,Lang.FF_PROC,MessageType.text);
     var location = await message.client.downloadAndSaveMediaMessage({
