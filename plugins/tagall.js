@@ -24,3 +24,4 @@ Asena.addCommand({pattern: 'tagall', fromMe: true, desc: Lang.TAGALL_DESC}, (asy
     );
     await message.client.sendMessage(message.jid,mesaj, MessageType.extendedText, {contextInfo: {mentionedJid: jids}, previewType: 0})
 }));
+ 
