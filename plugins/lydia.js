@@ -108,4 +108,4 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
             await message.client.sendMessage(message.jid,mesaj.data.payload.output, MessageType.text, {quoted: message.data});
         }
     }
-}));
+})); 
