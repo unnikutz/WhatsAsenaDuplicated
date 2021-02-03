@@ -17,9 +17,9 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => IN, Español => ES",
+            "description": "Bot language. Tamil => ta,  Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => IN, Español => ES",
             "required": true,
-            "value": "TR"
+            "value": "EN"
         },
         "HANDLERS": {
             "description": "Komutlar için.",
@@ -61,7 +61,7 @@
         "COFFEEHOUSE_API_KEY": {
             "description": "CoffeeHouse API Key. Need for Lydia. https://coffeehouse.intellivoid.net/",
             "required": false,
-            "value": "true"
+            "value": "https://coffeehouse.intellivoid.net/"
         }
     },
     "addons": [{
