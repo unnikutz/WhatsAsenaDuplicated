@@ -47,4 +47,4 @@ function addCommand(info, func) {
 module.exports = {
     addCommand: addCommand,
     commands: Commands
-}
+} 
