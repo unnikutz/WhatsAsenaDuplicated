@@ -65,4 +65,4 @@ class Message extends Base {
     }
 };
 
-module.exports = Message;
+module.exports = Message; 
