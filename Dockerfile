@@ -1,7 +1,7 @@
 FROM fusuf/whatsasena:latest
 
 RUN git clone https://github.com/phaticusthiccy/WhatsAsenaDuplicated /root/WhatsAsenaDuplicated
-WORKDIR /root/WhatsAsenaDuplicated/
+WORKDIR /root/WhatsAsenaDuplicated/ 
 ENV TZ=Europe/Istanbul
 RUN apk add --update nodejs npm
 RUN apk --no-cache --virtual build-dependencies add \
