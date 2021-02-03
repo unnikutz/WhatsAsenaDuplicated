@@ -66,4 +66,4 @@ class Video extends Base {
     }
 };
 
-module.exports = Video;
+module.exports = Video; 
